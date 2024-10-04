@@ -1,0 +1,144 @@
+
+  .hero {
+    background-image: url('../assest/img4bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0;
+    background-color: #f05f40; 
+    height: 530px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .bg-orange {
+    background-color: #f7941d;
+    border: none;
+    color: white;
+  }
+  
+  
+  .search-section {
+    background-color: #fff3e0; 
+    padding: 30px 0;
+  }
+  
+  .search-button {
+    background-color:orange;
+    border: none;
+    color: white;
+  }
+  
+  
+  .card-title {
+    color: orange; 
+  }
+  
+  .card-text {
+    color: #333;
+  }
+  
+ 
+  .footer {
+    background-color: #fff3e0;
+    color: white;
+  }
+  
+  .footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer .social-icons a {
+    color:#47320a;
+  }
+
+  span{
+    color:orange
+  }
+
+  /* ----------------------------------- */
+  .menu-items-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .menu-item {
+    margin-left: 20px;
+    border: 1px solid #f6591b73;
+    padding: 20px;
+    width: 20%;
+    border-radius: 20px;
+  }
+  
+  
+  .menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .search_filter{
+    /* height: 80px; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 20px ;
+  }
+  
+  .Search_bar{
+    /* float: left; */
+    /* display: flex; */
+    /* width: 80%; */
+    /* max-width: 600px; */
+    margin-bottom: 20px;
+  }
+  
+  .filter-section{
+    display: flex;
+      /* justify-content: center; */
+      gap: 10px;
+      margin-right: 10px;
+  }
+  
+  .search input{
+     width: 400px;
+      padding: 10px 15px;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+      outline: none;
+      font-size: 16px;
+  }
+  
+  .search button {
+    background-color: #ff914d;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    /* margin-left: -50px; */
+    /* z-index: 1; */
+  }
+  
+  .search button:hover {
+    background-color: #ff7030;
+  }
+  
+  .filter-section select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+  }
